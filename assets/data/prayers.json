@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "locale": "vi-VN",
+  "updated_at": "2026-09-28",
+  "traditions": [
+    { "id": "catholic", "name": "Công giáo" }
+  ],
+  "categories": [
+    { "id": "daily", "name": "Hằng ngày", "icon": "wb_sunny", "order": 1 },
+    { "id": "morning", "name": "Buổi sáng", "icon": "light_mode", "order": 2 },
+    { "id": "evening", "name": "Buổi tối", "icon": "nights_stay", "order": 3 },
+    { "id": "marian", "name": "Kính Đức Mẹ", "icon": "favorite", "order": 4 },
+    { "id": "creed_repentance", "name": "Tin Kính & Ăn Tội", "icon": "auto_awesome", "order": 5 },
+    { "id": "saints", "name": "Các Thánh", "icon": "person", "order": 6 },
+    { "id": "devotions", "name": "Việc Đạo Đức", "icon": "volunteer_activism", "order": 7 }
+  ],
+  "prayers": [
+    {
+      "id": "kinh-lay-cha",
+      "title": "Kinh Lạy Cha",
+      "subtitle": "Kinh Chúa dạy",
+      "tradition": "catholic",
+      "category_ids": ["daily", "morning", "evening"],
+      "tags": ["lạy cha", "kinh cơ bản", "our father"],
+      "time_of_day": ["morning", "evening"],
+      "text": {
+        "vi": "Lạy Cha chúng con ở trên trời,\nchúng con nguyện danh Cha cả sáng,\nnước Cha trị đến,\ný Cha thể hiện dưới đất cũng như trên trời.\nXin Cha cho chúng con hôm nay lương thực hằng ngày,\nxin tha nợ chúng con,\nnhư chúng con cũng tha kẻ có nợ chúng con.\nXin chớ để chúng con sa chước cám dỗ,\nnhưng cứu chúng con cho khỏi sự dữ.\nAmen."
+      },
+      "audio": null,
+      "source": "Kinh nguyện truyền thống",
+      "license_note": "Xác minh bản quyền văn bản trước khi phát hành",
+      "is_premium": false,
+      "order": 1
+    },
+    {
+      "id": "kinh-kinh-mung",
+      "title": "Kinh Kính Mừng",
+      "subtitle": "Kinh kính Đức Mẹ",
+      "tradition": "catholic",
+      "category_ids": ["daily", "marian"],
+      "tags": ["kính mừng", "đức mẹ", "hail mary"],
+      "time_of_day": ["morning", "evening"],
+      "text": {
+        "vi": "Kính mừng Maria đầy ơn phúc,\nĐức Chúa Trời ở cùng Bà,\nBà có phúc lạ hơn mọi người nữ,\nvà Giêsu con lòng Bà gồm phúc lạ.\nThánh Maria Đức Mẹ Chúa Trời,\ncầu cho chúng con là kẻ có tội,\nkhi nay và trong giờ lâm tử.\nAmen."
+      },
+      "audio": null,
+      "source": "Kinh nguyện truyền thống",
+      "license_note": "Xác minh bản quyền văn bản trước khi phát hành",
+      "is_premium": false,
+      "order": 2
+    },
+    {
+      "id": "kinh-sang-danh",
+      "title": "Kinh Sáng Danh",
+      "subtitle": "Kinh tôn vinh Ba Ngôi",
+      "tradition": "catholic",
+      "category_ids": ["daily", "morning"],
+      "tags": ["sáng danh", "glory be"],
+      "time_of_day": ["morning"],
+      "text": {
+        "vi": "Sáng danh Đức Chúa Cha và Đức Chúa Con\nvà Đức Chúa Thánh Thần.\nNhư đã có từ ban đầu, bây giờ và mãi mãi,\nđến muôn đời.\nAmen."
+      },
+      "audio": null,
+      "source": "Kinh nguyện truyền thống",
+      "license_note": "Xác minh bản quyền văn bản trước khi phát hành",
+      "is_premium": false,
+      "order": 3
+    },
+    {
+      "id": "kinh-tin-kinh",
+      "title": "Kinh Tin Kính",
+      "subtitle": "Kinh Tin Kính các Tông Đồ",
+      "tradition": "catholic",
+      "category_ids": ["daily", "morning", "creed_repentance"],
+      "tags": ["tin kính", "tuyên cáo đức tin", "creed"],
+      "time_of_day": ["morning"],
+      "text": {
+        "vi": "Tôi tin kính Đức Chúa Trời là Cha phép tắc vô cùng dựng nên trời đất.\nTôi tin kính Đức Chúa Giêsu Kitô là Con Một Đức Chúa Cha cùng là Chúa chúng tôi; bởi phép Đức Chúa Thánh Thần mà Người xuống thai, sinh bởi Bà Maria trinh nữ; chịu nạn đời quan Phongxiô Philatô, chịu đóng đinh trên cây thánh giá, chết và táng xác; xuống ngục tỳ quảng, ngày thứ ba bởi trong kẻ chết mà sống lại; lên trời ngự bên hữu Đức Chúa Cha phép tắc vô cùng; ngày sau bởi trời lại xuống hối xét kẻ sống và kẻ chết.\nTôi tin kính Đức Chúa Thánh Thần; tôi tin có Hội Thánh hằng có ở khắp thế này, các thánh thông công; tôi tin phép tha tội; tôi tin xác loài người ngày sau sống lại; tôi tin hằng sống vậy.\nAmen."
+      },
+      "audio": null,
+      "source": "Kinh nguyện truyền thống",
+      "license_note": "Xác minh bản quyền văn bản trước khi phát hành",
+      "is_premium": false,
+      "order": 4
+    },
+    {
+      "id": "kinh-an-an-toi",
+      "title": "Kinh Ăn Ăn Tội",
+      "subtitle": "Kinh sám hối",
+      "tradition": "catholic",
+      "category_ids": ["daily", "evening", "creed_repentance"],
+      "tags": ["ăn ăn tội", "sám hối", "xưng tội"],
+      "time_of_day": ["evening"],
+      "text": {
+        "vi": "Lạy Chúa tôi, Chúa là Đấng trọn tốt trọn lành vô cùng. Chúa đã dựng nên tôi, và cho Con Chúa ra đời chịu chết vì tôi, mà tôi đã xót xa lỗi nghĩa cùng Chúa, thì tôi lo buồn đau đớn, cùng chê ghét mọi tội tôi trên hết mọi sự. Tôi quyết lòng chừa dải, và nhờ ơn Chúa thì tôi sẽ lánh xa dịp tội, cùng làm việc đền tội cho xứng.\nAmen."
+      },
+      "audio": null,
+      "source": "Kinh nguyện truyền thống",
+      "license_note": "Xác minh bản quyền văn bản trước khi phát hành",
+      "is_premium": false,
+      "order": 5
+    },
+    {
+      "id": "kinh-truyen-tin",
+      "title": "Kinh Truyền Tin",
+      "subtitle": "Kinh tưởng nhớ Mầu nhiệm Nhập Thể",
+      "tradition": "catholic",
+      "category_ids": ["daily", "marian"],
+      "tags": ["truyền tin", "đức mẹ", "angelus"],
+      "time_of_day": ["morning", "noon", "evening"],
+      "text": {
+        "vi": "V. Đức Chúa Trời sai Thánh Thiên Thần truyền tin cho Rất Thánh Đức Bà Maria.\nR. Và Rất Thánh Đức Bà thụ thai bởi phép Đức Chúa Thánh Thần.\n\n(Đọc 1 Kinh Kính Mừng)\n\nV. Này tôi là tớ nữ Đức Chúa Trời.\nR. Xin chịu lạy như lời Thánh Thiên Thần truyền.\n\n(Đọc 1 Kinh Kính Mừng)\n\nV. Chốc ấy Ngôi Thứ Hai xuống thế làm người.\nR. Và ở cùng chúng tôi.\n\n(Đọc 1 Kinh Kính Mừng)\n\nV. Lạy Rất Thánh Đức Mẹ Chúa Trời, cầu cho chúng tôi.\nR. Đáng chịu lấy những sự Chúa Kitô đã hứa.\n\nLời nguyện: Lạy Chúa, chúng tôi xin Chúa ban ơn xuống trong lòng chúng tôi, là kẻ nhờ lời Thánh Thiên Thần truyền, mà biết Thật Con Chúa đã xuống thế làm người, thì xin vì công ơn Con Chúa chịu nạn chịu chết trên cây Thánh Giá, cho chúng tôi ngày sau khi phục sinh được đến chốn vinh hiển. Vì công nghiệp Đức Giêsu Kitô là Chúa chúng tôi.\nAmen."
+      },
+      "audio": null,
+      "source": "Kinh nguyện truyền thống",
+      "license_note": "Xác minh bản quyền văn bản trước khi phát hành",
+      "is_premium": false,
+      "order": 6
+    },
+    {
+      "id": "kinh-cam-on",
+      "title": "Kinh Cám Ơn",
+      "subtitle": "Kinh cảm tạ cuối ngày",
+      "tradition": "catholic",
+      "category_ids": ["daily", "evening"],
+      "tags": ["cám ơn", "tạ ơn", "buổi tối"],
+      "time_of_day": ["evening"],
+      "text": {
+        "vi": "Lạy Chúa tôi, tôi cảm tạ Chúa vì mọi ơn lành Chúa đã ban cho tôi, nhất là đã dựng nên tôi, cho tôi làm người, gìn giữ tôi trong ngày hôm nay, cùng tha nợ tội lỗi cho tôi, và ban ơn cho tôi được giữ đạo thánh Chúa. Xin Chúa ban ơn cho tôi được biết mọi tội lỗi tôi đã phạm trong ngày hôm nay, và cho tôi ăn ăn tội thấu hiếu cùng Chúa.\nAmen."
+      },
+      "audio": null,
+      "source": "Kinh nguyện truyền thống",
+      "license_note": "Xác minh bản quyền văn bản trước khi phát hành",
+      "is_premium": false,
+      "order": 7
+    },
+    {
+      "id": "kinh-pho-dang",
+      "title": "Kinh Phó Dâng",
+      "subtitle": "Kinh phó dâng linh hồn và xác",
+      "tradition": "catholic",
+      "category_ids": ["daily", "morning", "evening"],
+      "tags": ["phó dâng", "dâng ngày"],
+      "time_of_day": ["morning", "evening"],
+      "text": {
+        "vi": "Lạy Chúa, tôi xin phó dâng linh hồn và xác tôi ở tay Chúa. Chúa đã dựng nên tôi, Chúa đã chuộc tôi, xin Chúa gìn giữ tôi cho khỏi sự dữ.\nAmen."
+      },
+      "audio": null,
+      "source": "Kinh nguyện truyền thống",
+      "license_note": "Xác minh bản quyền văn bản trước khi phát hành",
+      "is_premium": false,
+      "order": 8
+    },
+    {
+      "id": "kinh-den-cung-thanh-giuse",
+      "title": "Kinh Đến Cùng Thánh Giuse",
+      "subtitle": "Kinh cầu xin cùng Thánh Giuse",
+      "tradition": "catholic",
+      "category_ids": ["saints"],
+      "tags": ["thánh giuse", "saint joseph", "các thánh"],
+      "time_of_day": ["morning", "evening"],
+      "text": {
+        "vi": "Lạy Thánh Giuse, chúng con chạy đến cùng Người trong cơn gian nan chúng con mắc phải. Sau khi đã cầu xót cùng Rất Thánh Đức Mẹ là Bạn Trăm Năm Người rồi, thì chúng con cũng lấy lòng trông cậy cho vững vàng mà sấp mình xin Thánh Giuse phù hộ hộ trì cho chúng con nữa.\n\nVì tình yêu mến thắm thiết Thánh Giuse đã kết hợp cùng Đấng Trinh Nữ Mẹ Chúa Trời, và vì lòng Cha yêu thương Con Trẻ Giêsu, thì chúng con xin Thánh Giuse ghé mắt lại mà nhìn đến cơ nghiệp Đức Giêsu Kitô đã lấy Máu Thánh Người mà chuộc lại, và dùng sức mạnh quyền năng Người mà giúp đỡ những sự chúng con còn thiếu xốn.\n\nLạy Đấng đã gìn giữ Thánh Gia cho cẩn thận, thì xin Người gìn giữ con cái Đức Giêsu Kitô đã chọn. Lạy Cha rất yêu dấu, xin Người xua đuổi hết mọi sự dối trá cùng mọi tội lỗi xa chúng con. Lạy Đấng phù hộ rất mạnh dạn, xin Người rủ lòng thương mà giúp đỡ chúng con trong cuộc chiến trận cùng các thế lực tối tăm.\n\nNhư xưa Người đã cứu Con Trẻ Giêsu khỏi giặc thù thế nào, thì nay xin Người cũng chữa vực Hội Thánh Chúa cho khỏi các chước độc gian thần, và khỏi mọi sự gian nan như vậy. Xin Người chở che mỗi người chúng con luôn mãi, để nhờ gương sáng Người và nhờ sự Người giúp đỡ, chúng con được sống thánh thiện, được chết lành và được hưởng phúc vô cùng trên thiên đàng.\nAmen."
+      },
+      "audio": null,
+      "source": "Kinh nguyện truyền thống",
+      "license_note": "Xác minh bản quyền văn bản trước khi phát hành",
+      "is_premium": false,
+      "order": 9
+    },
+    {
+      "id": "kinh-long-thuong-xot",
+      "title": "Kinh Lòng Thương Xót Chúa",
+      "subtitle": "Kinh chuỗi Lòng Thương Xót",
+      "tradition": "catholic",
+      "category_ids": ["devotions", "daily"],
+      "tags": ["lòng thương xót", "divine mercy", "3h chiều"],
+      "time_of_day": ["afternoon"],
+      "text": {
+        "vi": "Lạy Đấng Hằng Hữu, là Cha Đời Đời, con xin dâng lên Cha: Mình và Máu, Linh Hồn và Thần Tính của Con Rất Yêu Dấu Cha, là Đức Giêsu Kitô, Chúa chúng con; để đền vì tội lỗi chúng con và toàn thế giới.\n\nVì cuộc khổ nạn đau thương của Chúa Giêsu Kitô, xin Cha thương xót chúng con và toàn thế giới.\n\nLạy Đấng Chí Thánh, là Thiên Chúa Toàn Năng, Hằng Hữu, xin thương xót chúng con và toàn thế giới.\nAmen."
+      },
+      "audio": null,
+      "source": "Kinh nguyện truyền thống",
+      "license_note": "Xác minh bản quyền văn bản trước khi phát hành",
+      "is_premium": false,
+      "order": 10
+    }
+  ]
+}
